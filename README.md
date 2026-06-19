@@ -1,4 +1,5 @@
 # Help-Desk-Lab
+
 # Enterprise Active Directory Home Lab
 
 ## Overview
@@ -12,6 +13,8 @@ The objective was to gain hands-on experience with the technologies and administ
 ## Environment
 
 ### Infrastructure
+
+![Server Manager](Help%20desk%20lab/01-server-manager.png)
 
 * Windows Server 2022
 * Active Directory Domain Services (AD DS)
@@ -29,6 +32,8 @@ The objective was to gain hands-on experience with the technologies and administ
 ---
 
 ## Organizational Structure
+
+![OU Structure](Help%20desk%20lab/02-ou-structure.png)
 
 The Active Directory environment was designed to simulate a real organization with departmental separation through Organizational Units (OUs).
 
@@ -51,21 +56,29 @@ Created and managed user accounts across multiple departments.
 
 #### IT
 
+![IT Department](Help%20desk%20lab/03-it-department.png)
+
 * Emily Brown – Help Desk Technician
 * David Carter – System Administrator
 * Michael Lee – IT Manager
 
 #### HR
 
+![HR Department](Help%20desk%20lab/04-hr-department.png)
+
 * Sarah Johnson – HR Specialist
 * Jessica Miller – HR Manager
 
 #### Finance
 
+![Finance Department](Help%20desk%20lab/05-finance-department.png)
+
 * Amanda Davis – Finance Manager
 * Robert Wilson – Accountant
 
 #### Sales
+
+![Sales Department](Help%20desk%20lab/06-sales-department.png)
 
 * John Smith – Sales Representative
 * Chris Taylor – Sales Representative
@@ -73,10 +86,14 @@ Created and managed user accounts across multiple departments.
 
 #### Operations
 
+![Operations Department](Help%20desk%20lab/07-operations-department.png)
+
 * Brian Moore – Operations Manager
 * Mark Anderson – Operations Coordinator
 
 #### Executives
+
+![Executives Department](Help%20desk%20lab/08-executives-department.png)
 
 * Jennifer Winters – CEO
 * Thomas Harris – COO
@@ -84,6 +101,8 @@ Created and managed user accounts across multiple departments.
 ---
 
 ## Security Groups
+
+![Group Membership](Help%20desk%20lab/11-group-membership.png)
 
 Implemented role-based access control (RBAC) using Active Directory Security Groups.
 
@@ -102,6 +121,8 @@ Users were assigned permissions through security groups rather than individually
 
 ## Shared File Infrastructure
 
+![Shared Folders](Help%20desk%20lab/09-shared-folders.png)
+
 Created departmental shared folders:
 
 ```text
@@ -117,6 +138,8 @@ C:\Shares
 ```
 
 ### Access Controls
+
+![NTFS Permissions](Help%20desk%20lab/10-ntfs-permissions.png)
 
 Configured NTFS permissions using security groups:
 
@@ -135,6 +158,8 @@ Configured domain-wide security policies using Group Policy.
 
 ### Password Policy
 
+![Password Policy](Help%20desk%20lab/12-password-policy.png)
+
 * Password Complexity Enabled
 * Minimum Password Length: 8 Characters
 * Password History Enforcement
@@ -142,11 +167,15 @@ Configured domain-wide security policies using Group Policy.
 
 ### Account Lockout Policy
 
+![Account Lockout Policy](Help%20desk%20lab/13-account-lockout-policy.png)
+
 * Account Lockout Threshold: 5 Failed Attempts
 * Lockout Duration: 15 Minutes
 * Counter Reset: 15 Minutes
 
 ### Security Policies
+
+![Company Security Policy](Help%20desk%20lab/14-company-security-policy.png)
 
 * Company Security Policy GPO
 * Administrative Restrictions
@@ -155,6 +184,8 @@ Configured domain-wide security policies using Group Policy.
 ---
 
 ## PowerShell Automation
+
+![PowerShell Automation](Help%20desk%20lab/15-powershell-automation.png)
 
 Developed PowerShell scripts to automate:
 
